@@ -1,0 +1,51 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+
+#board {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    background: turquoise;
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row {
+    margin: 0 auto;    
+    width: 300px;
+    height: 100px;
+}
+
+.top {
+    border-top: 1px solid darkslategray; 
+    border-bottom: 1px solid darkslategray;
+}
+
+.bottom {
+    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid darkslategray;
+}
+
+.left {
+    border-right: 1px solid darkslategray;
+    border-left: 1px solid darkslategray;
+}
+
+.right {
+    border-right: 1px solid darkslategray;
+    border-left: 1px solid darkslategray;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
